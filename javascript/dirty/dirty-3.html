@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>购物车</title>
+  <script type="text/javascript" src="dirty-0.3.js"></script>
+</head>
+<body>
+<div>
+  <label>可乐</label>
+  <button ng-click="increaseCola">增加</button>
+  <button ng-click="decreaseCola">减少</button>
+  数量:<span ng-bind="cola"></span>
+</div>
+<div>
+  <label>雪碧</label>
+  <button ng-click="increaseSprite">增加</button>
+  <button ng-click="decreaseSprite">减少</button>
+  数量:<span ng-bind="sprite"></span>
+</div>
+合计: <span ng-bind="sum"></span>
+</body>
+</html>

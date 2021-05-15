@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Position定位</title>
+  <style>
+    #div1 {
+      background-color: red;
+      width: 100px;
+      height: 100px;
+      top: calc(50% - 50px);
+      left: calc(50% - 50px);
+      position: fixed;
+    }
+
+    #div2 {
+      background-color: green;
+      width: 100px;
+      height: 100px;
+      position: static;
+      overflow: scroll;
+      clip: rect(0px, 60px, 200px, 0px);
+    }
+
+    #span-content {
+      font-size: 20px;
+      color: aquamarine;
+      text-decoration: blueviolet;
+    }
+  </style>
+</head>
+<body>
+<div id="div1">div1</div>
+<div id="div2">div2akaksjkjsakjsakjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj</div>
+<div>
+  <span id="span-content">中华人民共和国</span>
+</div>
+</body>
+</html>

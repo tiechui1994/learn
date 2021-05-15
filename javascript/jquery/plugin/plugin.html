@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>插件开发</title>
+  <script type="text/javascript" src="jquery-3.3.1.js"></script>
+  <script type="text/javascript" src="jquery-plugin-0.1.js"></script>
+</head>
+<body>
+<div id="plugin">
+  <ul>
+    <li><a href="https://www.baidu.com">百度</a></li>
+    <li><a href="https://www.weibo.com">新浪</a></li>
+    <li><a href="https://www.google.com">谷歌</a></li>
+  </ul>
+</div>
+<script>
+  $('#plugin a').pluginName({
+    color: '#2C9929'
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+# ignore dir
+.idea/
+CMakeFiles/
+cmake-build-debug/
+
+# ignore file type
+*.cmake
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+
